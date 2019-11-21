@@ -78,7 +78,7 @@ var loss = 1;
 	}while(money>0);
 	
 	var totalMax = 0;
-
+	//find max $ amount
 	totalMax = Math.max.apply(Math, moneyArr); // finds max $ held
 	numRolls = moneyArr.indexOf(totalMax); // finds number of rolls that Max $ was held
 	if(numRolls<1){
