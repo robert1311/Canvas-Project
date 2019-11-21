@@ -1,6 +1,3 @@
-
-
-	
 function clearErrors() {    
     for (var loopCounter = 0; 
         loopCounter < document.forms["numberFun"].elements.length; 
@@ -32,6 +29,7 @@ function validateItems() {
         document.forms["numberFun"]["num1"].focus();
         return false;
     }
+//function luckySevens(){
 //declaring variables
 var startingBet = document.getElementById("num1").value;
 var money = 0;
@@ -84,6 +82,7 @@ var loss = 1;
 	if(numRolls<1){
 		numRolls = 0;
 	}
+//} // end of lucky sevens function
 	
 	
 	//transfer game data to results table

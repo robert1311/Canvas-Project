@@ -1,7 +1,7 @@
 //creating function to play Lucky Sevens
 function luckySevens(){
 //declaring variables
-var startingBet = document.getElementById("startingBet").value;
+var startingBet = document.getElementById("startBet").value;
 var money = 0;
 var money = startingBet;
 var moneyArr = [startingBet];

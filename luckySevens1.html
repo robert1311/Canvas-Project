@@ -7,10 +7,10 @@
 	<!--xmlns="http://www.w3.org/1999/xhtml"-->
 <html lang="en">
 	<head>
-		<script type="text/JavaScript" src="luckySevens(1).js"></script>
-		<meta charset="utf-8">
+		<script type="text/JavaScript" src="luckySevens1.js"></script>
+		<!-- <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
+		-->
 		<Title>Lucky Sevens</title>
 		 
 		
@@ -21,7 +21,7 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         rel="stylesheet" type="text/css" />
 		<!-- adding font family link for main page -->
-		<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet"> 
+		<!-- <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet"> 
 	<style>
 		header {
 			padding: 50px;
@@ -45,7 +45,7 @@
 		header, label, button {
 			font-family: 'Patrick Hand', cursive;
 		}	
-	</style>
+	</style> -->
 	</head>
 	<body>
 	<div class="container">
@@ -57,18 +57,18 @@
 			to make starting bet and hits play button -->
 		<!-- <section class="startPage -->
 		<!-- call for rollDice function-->
-			<form name="startGame" onsubmit="return validateItems();" 
+			<form name="numberFun" onsubmit="return validateItems();" 
           onreset="resetForm();" class="form-inline">
 				<div class="form-group">
-					<label for="startingBet">Starting Bet:</label>
-						<input  type="number" class="form-control" id="startingBet">
+					<label for="num1">Starting Bet:</label>
+						<input type="number" class="form-control" id="num1">
 				</div>	
-				<button type="submit" id="submitButton" class="btn btn-outline-success">Play</button>
-			</form><br />
+				<button type="submit" id="submitButton" class="btn btn-default">Play</button>
+			</form>
 			<!-- adding button from Bootstrap website -->
 			<!-- revert back to other website or change class to match example from ClicktoAddItems-->
 		<!--</section> -->
-	</div>	
+		
 	<table id="results" class="table table-striped" style="display:none;">
         <thead>
             <tr>
@@ -78,7 +78,7 @@
         <tbody>
             <tr>
                 <td>Starting Bet:</td>
-                <td><span id="startingBet"></span></td>
+                <td><span id="startBet"></span></td>
             </tr>
             <tr>
                 <td>Total Rolls Before Going Broke:</td>
@@ -102,8 +102,8 @@
 		
 	<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
 	<!-- erase if needed -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 	</body>
 </html>
