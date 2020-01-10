@@ -70,7 +70,7 @@ var loss = 1;
 			var previousMoney = moneyArr[moneyArr.length -1];
 			var currentMoney = previousMoney - loss;
 			moneyArr.push(currentMoney);
-			rollCounter = rollCounter++;
+			//rollCounter = rollCounter++;
 			}
 			
 
