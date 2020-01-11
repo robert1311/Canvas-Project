@@ -1,4 +1,29 @@
 /*stylesheet for restaurant*/
 header, footer {
-	background-color: lightblue;
+	background-color: #1a1aff;	
+	color: #f2f2f2;
 }
+header {
+	font-family: 'Black Ops One', cursive;
+	font-size: 2.3em;
+	height: 100px;
+	text-align: center;
+}
+a:link {
+	color: #1a1aff;
+	font-weight: bold;
+}
+a:visited {
+	color: #00001a;
+}
+a:hover {
+	font-weight: bold;
+	color: #ff1a1a;
+	font-family: cursive;
+}
+a:active {
+	text-decoration: none;
+	color: #00802b;
+}
+
+	

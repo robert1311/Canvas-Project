@@ -7,14 +7,44 @@ Most recent revision: 1/10/2020
 <html lang="en">
 <head>
 	<title>Menu</title>
+	<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Bowlby+One+SC|Lobster|Permanent+Marker|Seymour+One|Special+Elite|Tangerine&display=swap" rel="stylesheet">
+	<style>
+		body {
+			background-color: #f2f2f2;
+			color: #001433;
+		}
+		table, th, td {
+			padding: 5px 0px 5px 10px;
+			border-collapse: collapse;
+		}
+		table {
+			width: 75%;
+			margin: auto;
+		}	
+		th {
+			height: 25px;
+			background-color: #3385ff;
+		}	
+		td {
+			text-align: center;
+		}
+		tbody tr:nth-child(odd) {
+			background-color: #f2f2f2;
+		}
+		tbody tr:nth-child(even) {
+			background-color: #3385ff;
+		}	
+	</style>	
 </head>
 <body>
 	<header>
-		<h1>Rob's</h1>
+		<h1>ROB's</h1>
 	</header>
 	<hr />
 	<nav>
 		<a href="restaurant.html">Home</a>
+		<a href="menu.html">Menu</a>
 		<a href="contactInfo.html">Contact Us</a>
 	</nav>	
 	<section>
@@ -57,6 +87,33 @@ Most recent revision: 1/10/2020
 		<p>$7.95</p>
 	</article>
 	</section>
+	
+	<!-- table for drink menu -->
+	<table>
+	<thead>
+		<tr>
+			<th colspan="2">Beverages</th>
+		</tr>	
+	</thead>
+	<tbody>
+		<tr>
+			<td>Root Beer</td>
+			<td>$3.00</td>
+		<tr>
+			<td>Bottled Water</td>
+			<td>$1.25</td>
+		</tr>
+		<tr>
+			<td>Lemonade</td>
+			<td>$1.00</td>
+		</tt>
+		<tr>
+			<td>Iced Tea</td>
+			<td>$1.25</td>
+		</tr>	
+	</tbody>
+	</table>
+	
 <footer>
 	<hr />
 	<p>123 Fake St, Dallas, Texas 54321</p>
